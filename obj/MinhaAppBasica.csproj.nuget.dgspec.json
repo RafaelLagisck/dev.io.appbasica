@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\NetCore\\MinhaAppCompleta\\MinhaAppBasica.csproj": {}
+    "D:\\Projetos\\NetCore\\dev.io.appbasica\\MinhaAppBasica.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\NetCore\\MinhaAppCompleta\\MinhaAppBasica.csproj": {
+    "D:\\Projetos\\NetCore\\dev.io.appbasica\\MinhaAppBasica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NetCore\\MinhaAppCompleta\\MinhaAppBasica.csproj",
+        "projectUniqueName": "D:\\Projetos\\NetCore\\dev.io.appbasica\\MinhaAppBasica.csproj",
         "projectName": "MinhaAppBasica",
-        "projectPath": "D:\\Projetos\\NetCore\\MinhaAppCompleta\\MinhaAppBasica.csproj",
-        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NetCore\\MinhaAppCompleta\\obj\\",
+        "projectPath": "D:\\Projetos\\NetCore\\dev.io.appbasica\\MinhaAppBasica.csproj",
+        "packagesPath": "C:\\Users\\rafael.lagisck\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\NetCore\\dev.io.appbasica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.lagisck\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,11 +54,17 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             }
           },
           "imports": [
@@ -79,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
